@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	GPG
-Summary:	Crypt::GPG Perl module - an Object Oriented interface to GnuPG
+Summary:	Crypt::GPG Perl module - an object oriented interface to GnuPG
 Summary(pl):	Modu³ Perla Crypt::GPG - obiektowo zorientowany interfejs do GnuPG
 Name:		perl-Crypt-GPG
 Version:	1.42
