@@ -1,10 +1,14 @@
+#
+# Conditional build:
+# _with_tests - perform "make test"
+#
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	GPG
 Summary:	Crypt::GPG Perl module - an Object Oriented interface to GnuPG
 Summary(pl):	Modu³ Perla Crypt::GPG - obiektowo zorientowany interfejs do GnuPG
 Name:		perl-Crypt-GPG
-Version:	1.28
+Version:	1.40
 Release:	1
 License:	Artistic or GPL
 Group:		Development/Languages/Perl
@@ -45,8 +49,8 @@ wszystkich wersji PGP.
 %build
 perl Makefile.PL
 %{__make}
-# test disabled - it calls gpg, creates keyring etc.
-#%{__make} test
+# test disabled by default - it calls gpg, creates keyring etc.
+%{?_with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
