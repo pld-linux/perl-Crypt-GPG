@@ -1,6 +1,6 @@
 #
 # Conditional build:
-# _with_tests - perform "make test"
+%bcond_with	tests	# perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
@@ -52,7 +52,7 @@ wszystkich wersji PGP.
 	INSTALLDIRS=vendor
 %{__make}
 # test disabled by default - it calls gpg, creates keyring etc.
-%{?_with_tests:%{__make} test}
+%{?with_tests:%{__make} test}
 
 %install
 rm -rf $RPM_BUILD_ROOT
