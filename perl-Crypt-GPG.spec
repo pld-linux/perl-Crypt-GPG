@@ -47,7 +47,7 @@ wszystkich wersji PGP.
 %setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 # test disabled by default - it calls gpg, creates keyring etc.
 %{?_with_tests:%{__make} test}
