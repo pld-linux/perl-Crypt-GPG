@@ -32,7 +32,7 @@ Crypt::PGP5. The two modules together provide a uniform interface to
 deal with both PGP and GnuPG. Eventually, these modules will be folded
 into a single module which will interface with GnuPG as well as all
 versions of PGP.
-				    
+
 %description -l pl
 Modu³ Crypt::GPG daje prawie ca³kowity dostêp do funkcjonalno¶ci GnuPG
 poprzez zorientowany obiektowo interfejs. Udostêpnia metody do
@@ -49,7 +49,7 @@ wszystkich wersji PGP.
 
 %build
 %{__perl} Makefile.PL \
-	INSTALLDIRS=vendor 
+	INSTALLDIRS=vendor
 %{__make}
 # test disabled by default - it calls gpg, creates keyring etc.
 %{?_with_tests:%{__make} test}
