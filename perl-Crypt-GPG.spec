@@ -9,7 +9,7 @@ Summary:	Crypt::GPG Perl module - an object oriented interface to GnuPG
 Summary(pl):	Modu³ Perla Crypt::GPG - obiektowo zorientowany interfejs do GnuPG
 Name:		perl-Crypt-GPG
 Version:	1.42
-Release:	3
+Release:	4
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -17,7 +17,6 @@ Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version
 # Source0-md5:	917b6d649887c179c39da665a1c7955f
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	perl-Expect >= 1.15
-BuildRequires:	perl-Time-HiRes
 BuildRequires:	perl-TimeDate
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
