@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	GPG
 Summary:	Crypt::GPG Perl module - an object oriented interface to GnuPG
-Summary(pl):	Modu³ Perla Crypt::GPG - obiektowo zorientowany interfejs do GnuPG
+Summary(pl.UTF-8):   ModuÅ‚ Perla Crypt::GPG - obiektowo zorientowany interfejs do GnuPG
 Name:		perl-Crypt-GPG
 Version:	1.52
 Release:	1
@@ -33,15 +33,15 @@ deal with both PGP and GnuPG. Eventually, these modules will be folded
 into a single module which will interface with GnuPG as well as all
 versions of PGP.
 
-%description -l pl
-Modu³ Crypt::GPG daje prawie ca³kowity dostêp do funkcjonalno¶ci GnuPG
-poprzez zorientowany obiektowo interfejs. Udostêpnia metody do
-szyfrowania, odszyfrowywania, podpisywania, weryfikacji podpisów,
+%description -l pl.UTF-8
+ModuÅ‚ Crypt::GPG daje prawie caÅ‚kowity dostÄ™p do funkcjonalnoÅ›ci GnuPG
+poprzez zorientowany obiektowo interfejs. UdostÄ™pnia metody do
+szyfrowania, odszyfrowywania, podpisywania, weryfikacji podpisÃ³w,
 generowania kluczy, eksportowania i importowania kluczy oraz wielu
-innych funkcji zwi±zanych z zarz±dzaniem kluczami. Ten modu³ dzia³a
-prawie identycznie jak jego kuzyn, Crypt::PGP5. Oba modu³y razem daj±
-jednolity interfejs do obs³ugi PGP i GnuPG. Byæ mo¿e te zostan± one
-po³±czone w jeden modu³, bêd±cy interfejsem jednocze¶nie do GnuPG i
+innych funkcji zwiÄ…zanych z zarzÄ…dzaniem kluczami. Ten moduÅ‚ dziaÅ‚a
+prawie identycznie jak jego kuzyn, Crypt::PGP5. Oba moduÅ‚y razem dajÄ…
+jednolity interfejs do obsÅ‚ugi PGP i GnuPG. ByÄ‡ moÅ¼e te zostanÄ… one
+poÅ‚Ä…czone w jeden moduÅ‚, bÄ™dÄ…cy interfejsem jednoczeÅ›nie do GnuPG i
 wszystkich wersji PGP.
 
 %prep
