@@ -6,7 +6,7 @@
 %define		pdir	Crypt
 %define		pnam	GPG
 Summary:	Crypt::GPG Perl module - an object oriented interface to GnuPG
-Summary(pl.UTF-8):   Moduł Perla Crypt::GPG - obiektowo zorientowany interfejs do GnuPG
+Summary(pl.UTF-8):	Moduł Perla Crypt::GPG - obiektowo zorientowany interfejs do GnuPG
 Name:		perl-Crypt-GPG
 Version:	1.52
 Release:	1
