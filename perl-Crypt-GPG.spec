@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_with	tests	# perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Crypt
 %define		pnam	GPG
 Summary:	Crypt::GPG Perl module - an object oriented interface to GnuPG
