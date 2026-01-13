@@ -8,7 +8,7 @@ Summary:	Crypt::GPG Perl module - an object oriented interface to GnuPG
 Summary(pl.UTF-8):	Moduł Perla Crypt::GPG - obiektowo zorientowany interfejs do GnuPG
 Name:		perl-Crypt-GPG
 Version:	1.63
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
